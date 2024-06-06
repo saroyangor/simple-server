@@ -1,0 +1,20 @@
+{
+  "name": "dashboard-api",
+  "version": "1.0.0",
+  "description": "API for study",
+  "main": "src/index.ts",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node ./dist/main.js",
+    "build": "tsc"
+  },
+  "author": "Gor Saroyan",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "tslog": "^4.9.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21"
+  }
+}
